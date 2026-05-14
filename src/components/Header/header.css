@@ -1,0 +1,11 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding-bottom: 48px;
+}
+.header__logo {
+  min-width: 137px;
+  height: 28px;
+}/*# sourceMappingURL=header.css.map */

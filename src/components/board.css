@@ -1,0 +1,24 @@
+@media (min-width: 370px) {
+  .board {
+    padding: 16px 16px 48px 16px;
+  }
+  .board .search-section {
+    display: flex;
+    gap: 16px;
+    width: 100%;
+    margin-top: 32px;
+    flex-direction: column;
+  }
+}
+@media (min-width: 768px) {
+  .board {
+    padding: 16px 16px 48px 16px;
+  }
+  .board .search-section {
+    display: flex;
+    gap: 16px;
+    width: 100%;
+    margin-top: 32px;
+    flex-direction: row;
+  }
+}/*# sourceMappingURL=board.css.map */
