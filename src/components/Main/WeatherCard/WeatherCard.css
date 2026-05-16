@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.wc-page {
+  min-height: 100vh;
+  background: #1a1a2e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Nunito", sans-serif;
+}
+
+.wc-wrap {
+  width: 343px;
+  border-radius: 20px;
+  background-size: cover;
+  background-position: center;
+  padding: 28px 26px 26px;
+  position: relative;
+  overflow: hidden;
+  font-family: "DM Sans", bold;
+  background-image: url("../../../assets/images/bg-today-small.svg");
+  box-shadow:
+    0 24px 64px rgba(40, 50, 180, 0.45),
+    0 4px 16px rgba(0, 0, 0, 0.3);
+  opacity: 1;
+  transform: none;
+}
+
+.wc-city {
+  font-size: 22px;
+  font-weight: 800;
+  color: #ffffff;
+  background: none;
+  letter-spacing: -0.3px;
+  margin-bottom: 4px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.wc-date {
+  font-size: 13px;
+  font-weight: 600;
+  color: rgba(200, 210, 255, 0.75);
+  margin-bottom: 28px;
+  letter-spacing: 0.01em;
+  text-align: center;
+  background: none;
+}
+
+.wc-weather-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 8px;
+}
+
+.wc-sun {
+  font-size: 64px;
+  line-height: 1;
+  display: inline-block;
+  background: transparent;
+  background-color: transparent;
+}
+
+.wc-temp {
+  font-size: 72px;
+  font-weight: 800;
+  color: #ffffff;
+  line-height: 1;
+  letter-spacing: -3px;
+}

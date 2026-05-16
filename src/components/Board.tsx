@@ -4,6 +4,7 @@ import "./board.css";
 import Title from "./Title/Title";
 import Input from "../UI/Input/Input";
 import Button from "../UI/Button/Button";
+import Main from "./Main/Main";
 export default function Board() {
   return (
     <div className="board">
@@ -13,6 +14,7 @@ export default function Board() {
         <Input />
         <Button title="Search" />
       </section>
+      <Main />
     </div>
   );
 }
