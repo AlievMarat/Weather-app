@@ -5,4 +5,11 @@
   align-items: center;
   gap: 6px;
   background: #262540;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  color: white;
+}
+.drop-down-btn__icon {
+  background: transparent;
+  background-color: transparent;
 }/*# sourceMappingURL=drop-down.css.map */

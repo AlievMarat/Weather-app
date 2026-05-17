@@ -1,5 +1,14 @@
+@font-face {
+  font-family: "Bricolage Grotesque";
+  src: url("../../assets/fonts/Bricolage_Grotesque/BricolageGrotesque-VariableFont_opsz,wdth,wght.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
 @media (min-width: 325px) {
   .title {
+    font-family: "Bricolage Grotesque", sans-serif;
     font-size: 52px;
     font-weight: 700;
     line-height: 1.2;
@@ -8,5 +17,9 @@
     max-width: 340px;
     margin: 0 auto;
     padding-bottom: 48px;
+  }
+  .title span {
+    display: block;
+    white-space: nowrap;
   }
 }/*# sourceMappingURL=title.css.map */
