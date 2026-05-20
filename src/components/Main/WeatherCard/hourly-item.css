@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+
+.hourly-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 672px;
+  height: 60px;
+  padding: 18px 24px;
+  background: rgba(255, 255, 255, 0.04);
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.hourly-item__left {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.hourly-item__icon {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+}
+
+.hourly-item__time {
+  font-size: 20px;
+  font-weight: 500;
+  color: #ffffff;
+  font-family: "DM Sans", sans-serif;
+}
+
+.hourly-item__temp {
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+  font-family: "DM Sans", sans-serif;
+}
