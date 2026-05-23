@@ -1,4 +1,3 @@
-import React from "react";
 import Header from "./Header/Header";
 import "./board.css";
 import Title from "./Title/Title";

@@ -1,4 +1,3 @@
-import React from "react";
 import "./drop-down.css";
 interface DropDownBtnProps {
   title: string;

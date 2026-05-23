@@ -1,4 +1,3 @@
-import React from "react";
 import IconSearch from "../../assets/images/icon-search.svg";
 import "./input.css";
 export default function Input() {

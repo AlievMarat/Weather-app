@@ -1,4 +1,3 @@
-import React from "react";
 import WeatherCard from "./WeatherCard/WeatherCard";
 import HourlyForecast from "./WeatherCard/HourlyForecast";
 export default function Main() {
