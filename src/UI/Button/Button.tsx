@@ -1,7 +1,14 @@
 import "./button.css";
+
 interface IButton {
   title: string;
+  onClick: () => void;
 }
-export default function Button({ title }: IButton) {
-  return <button className="button">{title}</button>;
+
+export default function Button({ title, onClick }: IButton) {
+  return (
+    <button className="button" onClick={onClick}>
+      {title}
+    </button>
+  );
 }

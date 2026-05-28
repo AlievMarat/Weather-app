@@ -1,10 +1,15 @@
 import WeatherCard from "./WeatherCard/WeatherCard";
 import HourlyForecast from "./WeatherCard/HourlyForecast";
-export default function Main() {
+
+interface MainProps {
+  city: string;
+}
+
+export default function Main({ city }: MainProps) {
   return (
     <main className="main">
-      <WeatherCard />
-      <HourlyForecast />
+      <WeatherCard city={city} />
+      <HourlyForecast city={city} />
     </main>
   );
 }
