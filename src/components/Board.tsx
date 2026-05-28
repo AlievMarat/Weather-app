@@ -10,7 +10,10 @@ export default function Board() {
   const [city, setCity] = useState("");
   const [search, setSearch] = useState("");
 
-  const handleSearch = () => setSearch(city);
+  const handleSearch = () => {
+  setSearch(city);
+  setCity("");
+}
 
   return (
     <div className="board">

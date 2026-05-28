@@ -73,6 +73,7 @@ export default function HourlyForecast({
           img={IconDropdown}
           className="hourly-dropdown-btn"
           reverse
+          hideImg
         />
       </div>
       {items.map((item: any) => (
